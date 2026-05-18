@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reviews</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="main-nav">
+      <div class="logo"><span class="shop">Shop</span><span class="ix">ix</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">Cart</a>
+        <a href="shipping.html">Orders</a>
+        <a href="profile.html">Profile</a>
+        <a href="contact.html">Contact</a>
+        <a href="offers.html">Offers</a>
+        <a class="active-link" href="review.html">Reviews</a>
+      </div>
+      <div class="toggle">Light</div>
+    </header>
+
+    <main class="review-main">
+      <section class="review-wrap">
+        <h1>Customer Reviews</h1>
+
+        <div class="review-list">
+          <article class="review-item">
+            <img src="images/user-pfp.png" alt="Ali profile" width="40" height="40" />
+            <p><strong>Ali:</strong> Great product, fast delivery!</p>
+          </article>
+          <article class="review-item">
+            <img src="images/user-pfp.png" alt="Sarah profile" width="40" height="40" />
+            <p><strong>Sarah:</strong> Good value for money.</p>
+          </article>
+          <article class="review-item">
+            <img src="images/user-pfp.png" alt="Omar profile" width="40" height="40" />
+            <p><strong>Omar:</strong> Quality is nice, fits well.</p>
+          </article>
+        </div>
+
+        <h2>Add Your Review</h2>
+        <form class="review-form">
+          <textarea
+            id="review"
+            name="review"
+            rows="4"
+            placeholder="Write your review here..."
+          ></textarea>
+          <button type="submit" id="review-submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Have Fun Shopping In Our Shop</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
