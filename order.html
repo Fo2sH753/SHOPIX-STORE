@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Order Details</title>
+  </head>
+  <body>
+    <header class="main-nav">
+      <div class="logo"><span class="shop">Shop</span><span class="ix">ix</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="cart.html">Cart</a>
+        <a href="shipping.html">Orders</a>
+        <a href="profile.html">Profile</a>
+        <a href="contact.html">Contact</a>
+        <a href="offers.html">Offers</a>
+        <a href="review.html">Reviews</a>
+      </div>
+      <div class="toggle">Light</div>
+    </header>
+
+    <main class="order-main">
+      <section class="order-wrap">
+        <h1>Order Summary</h1>
+        <p class="order-success-msg">Thank you! Your order has been placed successfully.</p>
+        
+        <div class="order-container">
+          <div class="order-items-sec">
+            <h2>Items in your Order</h2>
+            
+            <article class="order-item-card">
+              <img src="images/clothes/te-shirt/11-19.webp" alt="Oversize T-Shirt" />
+              <div class="order-item-details">
+                <h3>Oversize T-Shirt</h3>
+                <p>Qty: 1</p>
+                <span class="order-item-price">400 EGP</span>
+              </div>
+            </article>
+
+            <article class="order-item-card">
+              <img src="images/clothes/te-shirt/OIP (1).webp" alt="Black Cotton T-Shirt" />
+              <div class="order-item-details">
+                <h3>Black Cotton T-Shirt</h3>
+                <p>Qty: 1</p>
+                <span class="order-item-price">450 EGP</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="order-summary-sidebar">
+            <div class="summary-card">
+              <h2>Payment Details</h2>
+              <div class="summary-row">
+                <span>Subtotal</span>
+                <span>850 EGP</span>
+              </div>
+              <div class="summary-row">
+                <span>Shipping</span>
+                <span>50 EGP</span>
+              </div>
+              <hr />
+              <div class="summary-row total-row">
+                <strong>Total Paid</strong>
+                <strong>900 EGP</strong>
+              </div>
+              <p class="payment-method-tag">Method: Cash On Delivery</p>
+            </div>
+
+            <div class="summary-card">
+              <h2>Shipping Address</h2>
+              <address class="shipping-info">
+                <p><strong>Name:</strong> Mohamed Waleed</p>
+                <p><strong>Phone:</strong> +201115150126</p>
+                <p><strong>Address:</strong> Giza, Egypt</p>
+              </address>
+            </div>
+          </div>
+        </div>
+        
+        <div class="order-actions">
+          <a href="shop.html" class="continue-btn">Continue Shopping</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Have Fun Shopping In Our Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
